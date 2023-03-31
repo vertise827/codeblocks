@@ -1,0 +1,20 @@
+Subject: {0}
+Content-Type: text/html
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    {1}
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Example Email</h1>
+      <p>Hi {2}</p>
+      <p>Your application failed with error {3}</p>
+      <p>Sincerely,</p>
+      <p>Your App Robot</p>
+      {4}
+      <a href="#" class="button">Call to Action</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<style>
+    /* Set font family and size */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    /* Set a max width for the email */
+    .email-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+    /* Set header styles */
+    .header {
+        background-color: #0072c6;
+        color: #fff;
+        padding: 10px;
+    }
+
+    /* Set link styles */
+    a {
+        color: #0072c6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Set button styles */
+    .button {
+        background-color: #0072c6;
+        color: #fff;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    .button:hover {
+        background-color: #005ea2;
+    }
+
+    /* Set footer styles */
+    .footer {
+        background-color: #f2f2f2;
+        color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
