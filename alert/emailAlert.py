@@ -15,12 +15,6 @@ class EmailAlert:
         # Add an image to the message object (optional)
         image = "<img src=\"meow.png.jpg\" alt=\"My Image\">"
 
-        # Create a multipart message object
-        message = MIMEMultipart("related")
-        message["Subject"] = "Test email with custom CSS styling"
-        message["From"] = "sender@example.com"
-        message["To"] = "recipient@example.com"
-
         #read in css and html
         current_dir = os.path.dirname(os.path.realpath(__file__))
         with open(os.path.join(current_dir, "emailCSS.txt")) as css:
