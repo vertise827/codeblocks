@@ -28,9 +28,9 @@ class EmailAlert:
         # Connect to the SMTP server and send the email
         smtp_server = smtplib.SMTP("smtp.gmail.com", 587)
         smtp_server.starttls()
-        smtp_server.login("luwang827@gmail.com", "kqrfbyrsprgfoiuu")
+        smtp_server.login("myemail", "myemailapppassowrd")
         smtp_server.sendmail(self.fromemail, self.toemail, html_content)
         smtp_server.quit()
 
-alert = EmailAlert("Yoyo Check it out","luwang827@gmail.com","luwang827@gmail.com")
+alert = EmailAlert("Yoyo Check it out","myemail","myemail")
 alert.sendAlert()
