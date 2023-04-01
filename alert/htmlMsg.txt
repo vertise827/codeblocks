@@ -1,5 +1,8 @@
 Subject: {0}
-Content-Type: text/html
+Content-Type: multipart/related; boundary=boundary-example
+--boundary-example
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
 
 <html>
   <head>
@@ -13,8 +16,16 @@ Content-Type: text/html
       <p>Your application failed with error {3}</p>
       <p>Sincerely,</p>
       <p>Your App Robot</p>
-      {4}
       <a href="#" class="button">Call to Action</a>
+      <img src="cid:image1">
     </div>
   </body>
 </html>
+--boundary-example
+Content-Type: image/png; name=what.png
+Content-Disposition: inline; filename=what.png
+Content-ID: <image1>
+Content-Transfer-Encoding: base64
+
+{4}
+--boundary-example--
