@@ -1,0 +1,10 @@
+#under-development
+
+
+#localtest files and credentials
+out.txt
+token.pickle
+
+#virtual env
+emailfetcher/
+crawler/gmailapicred.json
